@@ -90,7 +90,7 @@ struct TTSRequestBuffer_Baton {
 
   // Output
   char* result;
-  int sockfd;
+  SOCKET sockfd;
   int nVoiceLen;
   int nReturn;
 };
@@ -116,7 +116,7 @@ struct TTSRequestBufferEx_Baton {
 
   // Output
   char* result;
-  int sockfd;
+  SOCKET sockfd;
   int nVoiceLen;
   int nReturn;
 };
@@ -140,7 +140,7 @@ struct TTSRequestBufferSSMLEx_Baton {
 
   // Output
   char* result;
-  int sockfd;
+  SOCKET sockfd;
   int nVoiceLen;
   int nMarkSize;
   TTSMARK* pTTSMark;
