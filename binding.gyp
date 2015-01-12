@@ -5,7 +5,7 @@
       "sources": [ "binding/neospeech.cc" ],
       "link_settings": {
         "libraries": [
-          "<(module_root_dir)/binding/libttsapi/libttsapi.a",
+          "<(module_root_dir)/binding/libttsapi/libttsapi.lib",
         ]
       }
     }
